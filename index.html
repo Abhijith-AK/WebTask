@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -18,17 +19,28 @@
             <div class="logo">
                 <img src="https://themewagon.github.io/jadoo/v1.0.0/assets/img/logo.svg" alt="logo">
             </div>
+
             <nav>
-                <ul>
-                    <li>Service</li>
-                    <li>Destination</li>
-                    <li>Booking</li>
-                    <li>Testimonial</li>
-                    <li>Login</li>
-                </ul>
-                <div class="buttons">
-                    <button>Sign Up</button>
-                    <h4>EN <span>&#11206;</span></h4>
+                <!-- Checkbox -->
+                <input type="checkbox" name="" id="check">
+                <label for="check" class="icons">
+                    <!-- Menu Icon -->
+                    <i class='bx bx-menu' id="menuIcon"></i>
+                    <!-- close icon -->
+                    <i class='bx bx-x' id="closeIcon"></i>
+                </label>
+                <div class="navba">
+                    <ul>
+                        <li>Service</li>
+                        <li>Destination</li>
+                        <li>Booking</li>
+                        <li>Testimonial</li>
+                        <li>Login</li>
+                    </ul>
+                    <div class="buttons">
+                        <button>Sign Up</button>
+                        <h4>EN <span>&#11206;</span></h4>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -51,7 +63,7 @@
                     </div>
                 </section>
                 <section id="hero-image">
-                    <img src="./images/hero-img.png" alt="">
+                    <img class="cd" width="100%" src="./images/hero-img.png" alt="">
                 </section>
             </div>
         </div>
@@ -92,7 +104,7 @@
                     <div class="d-card">
                         <img src="https://themewagon.github.io/jadoo/v1.0.0/assets/img/dest/dest1.jpg" alt="">
                         <div class="d-info">
-                            <h2>Rome, Italy</h2>
+                            <h2 class="one">Rome, Italy</h2>
                             <h2>$5,42k</h2>
                         </div>
                         <p><i class="fa-solid fa-location-arrow"></i> 10 Days Trip</p>
@@ -100,7 +112,7 @@
                     <div class="d-card">
                         <img src="https://themewagon.github.io/jadoo/v1.0.0/assets/img/dest/dest2.jpg" alt="">
                         <div class="d-info">
-                            <h2>London, UK</h2>
+                            <h2 class="one">London, UK</h2>
                             <h2>$4.2k</h2>
                         </div>
                         <p><i class="fa-solid fa-location-arrow"></i> 12 Days Trip</p>
@@ -108,7 +120,7 @@
                     <div class="d-card">
                         <img src="https://themewagon.github.io/jadoo/v1.0.0/assets/img/dest/dest3.jpg" alt="">
                         <div class="d-info">
-                            <h2>Full Europe</h2>
+                            <h2 class="one">Full Europe</h2>
                             <h2>$15k</h2>
                         </div>
                         <p><i class="fa-solid fa-location-arrow"></i> 28 Days Trip</p>
@@ -305,9 +317,9 @@
                 </div>
                 <div class="link-card">
                     <div class="socials">
-                        <div class="social"><i class="fa-brands fa-facebook-f"></i></div>
-                        <div class="social"><i class="fa-brands fa-instagram"></i></div>
-                        <div class="social"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="social fb"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div class="social in"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="social tw"><i class="fa-brands fa-twitter"></i></div>
                     </div>
                     <h4>Discover our app</h4>
                     <div class="stores">
@@ -317,7 +329,7 @@
                 </div>
             </div>
             <div class="copyrights">
-                <p> All rights reserved@jadoo.co</p>
+                <p>All rights reserved@jadoo.co</p>
             </div>
         </footer>
     </div>
