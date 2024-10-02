@@ -1274,6 +1274,9 @@ footer {
     .hero-content h1 {
         font-size: 3rem;
     }
+    .hero-content p{
+        text-align: left;
+    }
     .hero-content img {
         width: 100%;
     }
